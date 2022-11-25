@@ -12,6 +12,17 @@ namespace Class1 {
         public int AltezzaRettangolo;
         public int PerimetroRettangolo;
         public int AreaRettangolo;
+
+
+        public void StampaRettangolo()
+        {
+            Console.WriteLine("--Rettangolo--");
+            Console.WriteLine("base: " + Baserettangolo + " cm");
+            Console.WriteLine("altezza: " + AltezzaRettangolo + " cm");
+            Console.WriteLine("perimetro:" + PerimetroRettangolo + " cm");
+            Console.WriteLine("area: " + AreaRettangolo + " cm2");
+        }
     }
 
+    
 }
