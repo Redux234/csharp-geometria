@@ -20,8 +20,9 @@ int baseutente = int.Parse(Console.ReadLine());
 Console.WriteLine("Inserire Altezza Rettangolo: ");
 int altezzautente = int.Parse(Console.ReadLine());  
 */
-rettangoloutente.Baserettangolo = int.Parse(Console.ReadLine()); 
-rettangoloutente.AreaRettangolo = int.Parse(Console.ReadLine());
+
+rettangoloutente.Baserettangolo = int.Parse(Console.ReadLine());
+rettangoloutente.AltezzaRettangolo = int.Parse(Console.ReadLine());
 rettangoloutente.PerimetroRettangolo = 2 * rettangoloutente.Baserettangolo + 2 * rettangoloutente.AltezzaRettangolo;
 rettangoloutente.AreaRettangolo = rettangoloutente.Baserettangolo * rettangoloutente.AltezzaRettangolo;
 
