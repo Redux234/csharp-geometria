@@ -8,19 +8,21 @@ namespace Class1 {
 
     public class Rettangolo
     {
-        public int Baserettangolo;
-        public int AltezzaRettangolo;
-        public int PerimetroRettangolo;
-        public int AreaRettangolo;
+        public int Base;
+        public int Altezza;
+        public int Perimetro;
+        public int Area;
 
 
         public void StampaRettangolo()
         {
             Console.WriteLine("--Rettangolo--");
-            Console.WriteLine("base: " + Baserettangolo + " cm");
-            Console.WriteLine("altezza: " + AltezzaRettangolo + " cm");
-            Console.WriteLine("perimetro:" + PerimetroRettangolo + " cm");
-            Console.WriteLine("area: " + AreaRettangolo + " cm2");
+            Console.WriteLine("base: " + Base + " cm");
+            Console.WriteLine("altezza: " + Altezza + " cm");
+            Console.WriteLine("perimetro:" + Perimetro + " cm");
+            Console.WriteLine("area: " + Area + " cm2");
+
+           
         }
     }
 
